@@ -10,8 +10,19 @@ Lab02- Modules and Testing
 
 ## Description
 
-**_[Tell me about your application, should be about a paragraph]_**
-This python application contains three functions which utilize recursion to either return the nth value in the fibonacci or the lucas series.
+- This python application contains three functions fibonacci, lucas and sum_series.
+
+- Fibonacci: This function has the parameter (number). The function will return the nth value in the fibonacci series using recursion.
+
+- Lucas: This function has the parameter n. The function will return the nth value in the lucas series using recursion.
+
+- sum_series: This function has the required parameter(number). There are two optional parameters x and y
+
+  - if x is 0 and y = 1 then it will return the fibonacci number
+
+  - Likewise if x is 2 and y is 1 then it will return the lucas number
+
+- This application also has a series of tests in test_series.py, which test all of the functions with multiple cases.
 
 ### Getting Started
 
@@ -44,4 +55,3 @@ This python application contains three functions which utilize recursion to eith
 - Built sum function
 
 ---
-
